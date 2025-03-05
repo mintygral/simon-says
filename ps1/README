@@ -1,0 +1,12 @@
+Place each of your individual submodule files in a file with the submodule as the name, and ".sv" as the extension.
+Eg. for ssdec, save your code in a new file called ssdec.sv.
+
+To test a specific module, run:
+- "make test_submodule"
+
+To test all available modules, run:
+- "make"
+
+If you see errors like:
+"make: *** No rule to make target 'test_ssdec'.  Stop."
+It means you didn't name the submodule file correctly, or you never created it in the first place.
